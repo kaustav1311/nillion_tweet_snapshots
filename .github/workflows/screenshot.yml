@@ -20,7 +20,7 @@ jobs:
           node-version: 18
 
       - name: Install Puppeteer dependencies
-        run: npm install puppeteer node-fetch
+        run: npm install puppeteer
 
       - name: Run screenshot script
         run: node scripts/screenshot_tweets.js
