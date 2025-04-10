@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
-const fetch = require('node-fetch');
+//const fetch = require('node-fetch');
 
 // CONFIG: source file + date stamp
 const DATE = new Date().toISOString().split('T')[0].replace(/-/g, '');
